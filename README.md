@@ -9,7 +9,7 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 
 ## 📸 Project Execution Report
 
-![Demo Screenshot](https://github.com/user-attachments/assets/58a45044-2c70-4f48-a988-357bb421d26c)
+![ProjectReport](https://github.com/user-attachments/assets/d42939ed-c8e8-4bbc-a9b9-874883c46f0b)
 
 
 ## 🎥 Automation Flow (GIF)
@@ -50,7 +50,7 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 🗂️ Project Structure
 
 
-![ProjectSrructure](https://github.com/user-attachments/assets/96cc2b8e-ec7e-41c5-8936-f3fa25d9ea93)
+![ProjectStructure](https://github.com/user-attachments/assets/7494802b-a24d-40be-af91-0a3f098eee27)
 
 ---
 

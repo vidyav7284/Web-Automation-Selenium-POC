@@ -1,129 +1,119 @@
+# 🧪 Selenium-Testng-Automation
 
+This repository presents a **Proof of Concept (POC)** for automating a typical e-commerce flow — specifically, the **"Add to Cart" functionality** — using **Selenium WebDriver** and **TestNG**. The framework is designed with the **Page Object Model (POM)** architecture to promote scalability, maintainability, and ease of use.
 
-# 🧪 Web Automation Selenium POC
-
-A Proof of Concept (POC) for end-to-end **web automation testing** using **Selenium WebDriver** and **TestNG**. This project validates an *Add to Cart* functionality (e.g., on Amazon) and follows the **Page Object Model (POM)** design pattern to ensure modularity, scalability, and reusability.
 🔗 **GitHub Repository:** [web-automation-selenium-poc](https://github.com/vidyav7284/Web-Automation-Selenium-POC)
 
 ---
 
-## 📸 Project Execution Report
+## 📸 Test Execution Report
 
 ![ProjectReport](https://github.com/user-attachments/assets/d42939ed-c8e8-4bbc-a9b9-874883c46f0b)
 
-
-## 🎥 Automation Flow (GIF)
+## 🎥 Automation Demo (GIF)
 
 ![DemoVideo](https://github.com/user-attachments/assets/f8e0d8c5-71c5-4da8-b471-709b60b3ac35)
 
+---
 
+## 🚀 Key Features
+
+- ✅ End-to-end test flow for Amazon's *Add to Cart* functionality  
+- ✅ Uses **Page Object Model (POM)** for code separation  
+- ✅ Executes tests using **TestNG** framework  
+- ✅ Modular utility classes (e.g., waits, screenshots, config reader)  
+- ✅ Designed for cross-browser compatibility  
+- ✅ Ready for integration into **CI/CD pipelines**  
+- ✅ Clean and maintainable codebase with descriptive naming conventions
 
 ---
 
-## 🚀 Features
+## 🔧 Tech Stack
 
-
-✅ Automates end-to-end *Amazon Add to Cart* journey  
-✅ Implements Page Object Model (POM)  
-✅ Uses TestNG for test execution and reporting  
-✅ Modular utility classes for screenshots, waits, and config  
-✅ Easily maintainable and extendable test structure  
-✅ Designed for cross-browser compatibility  
-✅ Structured for CI/CD pipeline integration  
-✅ Clean naming conventions for readability 
+| Tool / Library       | Purpose                        |
+|----------------------|--------------------------------|
+| **Java**             | Programming language           |
+| **Selenium WebDriver** | Browser automation            |
+| **TestNG**           | Test execution and reporting   |
+| **Maven**            | Build and dependency management|
+| **Eclipse IDE**      | Development environment        |
 
 ---
 
-## 🔧 Technologies Used
-
-| Tool/Library     | Purpose                       |
-| -----------------| ----------------------------- |
-| **Java**         | Programming Language          |
-| **Selenium Webdriver** | Web Automation Framework      |
-| **TestNG**       | Test Framework                |
-| **Maven**        | Dependency & Build Management |
-| **Eclipse IDE**  | Development Environment       |
-
-
----
-
-🗂️ Project Structure
-
+## 🗂️ Project Structure
 
 ![ProjectStructure](https://github.com/user-attachments/assets/7494802b-a24d-40be-af91-0a3f098eee27)
 
 ---
 
-## ✅ Test Scenario
+## ✅ Test Case Scenario
 
 ```text
-Test Case: Validate Add to Cart functionality on Amazon
+Title: Add to Cart Workflow (Amazon)
 
-1. Launch browser and open Amazon homepage
+Steps:
+1. Open Amazon homepage
 2. Select "Kindle Store" from the category dropdown
-3. Click on the search icon
-4. Apply "Kindle Unlimited Eligible" filter
+3. Initiate a search
+4. Apply the "Kindle Unlimited Eligible" filter
 5. Sort results by "Best Sellers"
-6. Add the first listed product to the cart
-7. Verify the product is successfully added
+6. Add the first item to the cart
+7. Verify item has been added successfully
 ```
 
-## 🧪 How to Run Locally
+---
 
-### 1. Clone the repository
+## 💻 How to Run This Project
 
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/vidyav7284/web-automation-poc.git
 ```
 
-### 2. Import into Eclipse
+### 2️⃣ Import the Project into Eclipse
+- Go to **File > Import > Existing Maven Project**
+- Select the project root directory
 
-* Open Eclipse.
-* File → Import → Existing Maven Project → Choose the project directory
+### 3️⃣ Resolve Dependencies
+- Maven will handle dependency installation via `pom.xml`
 
-### 3. Install dependencies
-
-Maven will automatically resolve dependencies from `pom.xml`.
-
-### 4. Execute Tests
-
-* Eclipse → Right-click AmazonAddTest.java → Run As → TestNG Test
-* You can also run via command line:
-
+### 4️⃣ Execute the Tests
+- From Eclipse: Right-click `AmazonAddTest.java` → Run As → **TestNG Test**
+- Or from terminal:
 ```bash
 mvn test
 ```
 
 ---
 
-## ✅ Best Practices Followed
+## 🧩 Best Practices Implemented
 
-✅ Page Object Model (POM)
-✅ Modular architecture (Base → Page → Test)
-✅ Config-driven test setup
-✅ Utility classes for reusability
-✅ Assertions and validations added
-✅ Clean method and class naming
+- ✅ Clean separation using Page Object Model  
+- ✅ Configuration-driven setup  
+- ✅ Utility classes for common functions  
+- ✅ Proper assertions and validations  
+- ✅ Modular and layered test design  
+- ✅ Readable and reusable method structure
 
 ---
 
-## 📎 Resources
+## 📎 Helpful Resources
 
-* [Selenium Documentation](https://www.selenium.dev/documentation/)
-* [TestNG Docs](https://testng.org/doc/)
-* [Maven Guide](https://maven.apache.org/guides/index.html)
-* [Apache Maven](https://maven.apache.org/)
+- [Selenium Documentation](https://www.selenium.dev/documentation/)
+- [TestNG Docs](https://testng.org/doc/)
+- [Maven Guide](https://maven.apache.org/guides/index.html)
+- [Apache Maven](https://maven.apache.org/)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [Apache 2.0 License](LICENSE).
+Licensed under the [Apache 2.0 License](LICENSE)
 
 ---
 
-## 👤 Author
+## 👩‍💻 Author
 
 **Vidya Vanjare**  
-📧 v.vanjare@gmail.com
-📎 [LinkedIn](https://www.linkedin.com/in/vidya-vanjare)  
+📧 v.vanjare@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vidya-vanjare)

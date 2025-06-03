@@ -3,7 +3,7 @@
 # 🧪 Web Automation Selenium POC
 
 A Proof of Concept (POC) for end-to-end **web automation testing** using **Selenium WebDriver** and **TestNG**. This project validates an *Add to Cart* functionality (e.g., on Amazon) and follows the **Page Object Model (POM)** design pattern to ensure modularity, scalability, and reusability.
-🔗 **GitHub Repository:** [web-automation-poc](https://github.com/vidyav7284/web-automation-poc)
+🔗 **GitHub Repository:** [web-automation-selenium-poc](https://github.com/vidyav7284/Web-Automation-Selenium-POC)
 
 ---
 

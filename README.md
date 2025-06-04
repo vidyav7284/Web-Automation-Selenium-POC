@@ -2,7 +2,7 @@
 
 This repository presents a **Proof of Concept (POC)** for automating a typical e-commerce flow — specifically, the **"Add to Cart" functionality** — using **Selenium WebDriver** and **TestNG**. The framework is designed with the **Page Object Model (POM)** architecture to promote scalability, maintainability, and ease of use.
 
-🔗 **GitHub Repository:** [web-automation-selenium-poc](https://github.com/vidyav7284/Web-Automation-Selenium-POC)
+🔗 **GitHub Repository:** [selenium-testng-automation](https://github.com/vidyav7284/Web-Automation-Selenium-POC)
 
 ---
 
